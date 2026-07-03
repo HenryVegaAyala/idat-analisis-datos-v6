@@ -9,9 +9,12 @@ division = 20 / 2
 # aritméticos directos
 numero = 10
 numero += 5 # ===> esto es igual a (numero = numero + 5)
+print(f"Resultado de la suma: {numero}")
 
 numero = 5
 numero -= 5 # ===> esto es igual a (numero = numero - 5)
+print(f"Resultado de la resta = {numero}")
 
 numero = 10
 numero += -5 # ===> esto igual a (numero = numero + -5)
+print(f"Resultado de la operación => {numero}")
