@@ -9,5 +9,3 @@ class Analista:
 
 analista_1 = Analista("Erik Lozano", "Senior")
 analista_1.saludo()
-analista_1.saludo()
-analista_1.saludo()
