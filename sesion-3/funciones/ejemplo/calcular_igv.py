@@ -8,8 +8,8 @@ producto_a = calcular_precio_final(100)
 print(f"Precio final del producto A: {producto_a}")
 
 # Lista de precios de base
-lista = [120, 150, 200, 500, 100000]
+precios = [120, 150, 200, 500, 100000]
 
-for item in lista:
-    producto = calcular_precio_final(item)
-    print(f"Precio final del producto con precio base {item}: {producto}")
+for precio in precios:
+    resultado = calcular_precio_final(precio)
+    print(f"Precio final del producto con precio base {precio}: {resultado}")
