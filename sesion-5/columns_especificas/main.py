@@ -7,4 +7,4 @@ print(df.head(0)) # Mostrar cabeceras de las columnas
 
 print(df["id_venta"]) # Especifico columna a mostrar
 
-print(df[["id_venta", "producto"]]) # Multiples columnas a mostrar
+print(df[["id_venta", "producto", "vendedor"]]) # Multiples columnas a mostrar
