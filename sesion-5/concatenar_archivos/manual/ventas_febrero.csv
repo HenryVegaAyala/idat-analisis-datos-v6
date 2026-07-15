@@ -1,0 +1,4 @@
+id,nombre_proveedor,producto,cantidad,precio_unitario,total,fecha,moneda
+1,Proveedor A,Producto X,10,5.00,50.00,01-02-2026,USD
+2,Proveedor B,Producto Y,20,3.50,70.00,02-02-2026,USD
+3,Proveedor C,Producto Z,15,4.00,60.00,03-02-2026,USD
