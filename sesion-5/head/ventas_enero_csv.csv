@@ -1,0 +1,7 @@
+id_venta,producto,cantidad,precio_unitario,vendedor
+1001,Laptop,2,1500,Ana
+1002,Mouse,10,20,Carlos
+1003,Teclado,5,45,Ana
+1004,Monitor,3,200,Beatriz
+1005,Laptop,1,1500,Carlos
+1006,Mouse,2,20,Ana
