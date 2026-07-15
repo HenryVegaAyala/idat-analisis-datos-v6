@@ -1,0 +1,13 @@
+id,nombre_proveedor,producto,cantidad,precio_unitario,total,fecha,categoria,ruta,moneda
+1,Proveedor A,Producto X,10,5.0,50.0,01-01-2026,Categoria 1,ventas\ventas_enero.csv,
+2,Proveedor B,Producto Y,20,3.5,70.0,02-01-2026,Categoria 2,ventas\ventas_enero.csv,
+3,Proveedor C,Producto Z,15,4.0,60.0,03-01-2026,Categoria 3,ventas\ventas_enero.csv,
+1,Proveedor A,Producto X,10,5.0,50.0,01-02-2026,,ventas\ventas_febrero.csv,USD
+2,Proveedor B,Producto Y,20,3.5,70.0,02-02-2026,,ventas\ventas_febrero.csv,USD
+3,Proveedor C,Producto Z,15,4.0,60.0,03-02-2026,,ventas\ventas_febrero.csv,USD
+1,Proveedor A,Producto X,10,5.0,50.0,01-03-2027,,ventas\ventas_marzo.csv,USD
+2,Proveedor B,Producto Y,20,3.5,70.0,02-03-2027,,ventas\ventas_marzo.csv,USD
+3,Proveedor C,Producto Z,15,4.0,60.0,03-03-2027,,ventas\ventas_marzo.csv,USD
+4,Proveedor C,Producto Z,15,4.0,60.0,03-03-2027,,ventas\ventas_marzo.csv,USD
+5,Proveedor C,Producto Z,15,4.0,60.0,03-03-2027,,ventas\ventas_marzo.csv,USD
+6,Proveedor C,Producto Z,15,4.0,60.0,03-03-2027,,ventas\ventas_marzo.csv,USD

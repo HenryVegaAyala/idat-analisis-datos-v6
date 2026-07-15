@@ -18,3 +18,4 @@ for archivo in buscar_archivos:
 consolidado_anual = pd.concat(dataframes, ignore_index=True)
 
 consolidado_anual.to_csv("consolidado/anual_2026.csv", index=False)
+consolidado_anual.to_excel("consolidado/anual_2026.xlsx", index=False)
