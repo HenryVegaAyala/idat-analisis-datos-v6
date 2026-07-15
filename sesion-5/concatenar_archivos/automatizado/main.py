@@ -12,7 +12,7 @@ dataframes = [] # Variable global
 # Leer y concatenar todos los archivos encontrados
 for archivo in buscar_archivos:
     df = pd.read_csv(archivo)
-    df["ruta"] = archivo
+    df["ruta"] = archivo # Opcional solo es un identificador
     dataframes.append(df)
 
 consolidado_anual = pd.concat(dataframes, ignore_index=True)
