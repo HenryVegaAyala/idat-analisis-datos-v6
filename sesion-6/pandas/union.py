@@ -44,7 +44,10 @@ resultado_outer = pd.merge(
     how="outer", # Mantener todas las filas de ventas y clientes
 )
 
-print(resultado_outer[["id_venta", "fecha", "pais"]])
+resultado_outer["nueva_columna"] = resultado_outer["pais"] + "_" + resultado_outer["nivel"] # --> f"{A}_{B}" Unir 2 columnas para crear una nueva columna
+resultado_outer["nueva_columna_separada"] = resultado_outer["nueva_columna"].str.split("_").str[0] # Separar los valores de una columna bajo un caracter
+
+print(resultado_outer[["id_venta", "fecha", "pais", "nivel", "nueva_columna", "nueva_columna_separada"]])
 print("=== OUTER join: ventas + clientes ===")
 
 # Union de 3 archivos
