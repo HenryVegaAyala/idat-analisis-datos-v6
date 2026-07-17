@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-fig, axs = plt.subplots(2, 2, figsize=(12, 8))
+fig, axs = plt.subplots(2, 2, figsize=(12, 8)) # Configuración base
 fig.suptitle("Ejemplo de subplots con Matplotlib", fontsize=16)
 
 # ----- Grafico 1: Lineal ------
