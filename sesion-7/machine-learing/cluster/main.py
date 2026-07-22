@@ -11,3 +11,8 @@ model.fit(X)
 df["cluster"] = model.labels_
 
 print(df)
+
+agrupador = pd.DataFrame([[500, 10]], columns=["gasto_anual", "visitas_mes"])
+grupo_resultado = model.predict(agrupador)
+
+print(f"Cliente pertenece al grupo {grupo_resultado[0]}")
